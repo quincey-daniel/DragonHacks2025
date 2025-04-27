@@ -1,0 +1,8 @@
+Scene: indoor
+Summary: A person is standing in front of a whiteboard with writing on it.
+Dominant objects: person, whiteboard
+Total objects: 3
+Detected objects:
+  - person: 0.95
+  - whiteboard: 0.85
+  - headphones: 0.70
