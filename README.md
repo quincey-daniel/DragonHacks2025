@@ -21,3 +21,8 @@ pip install -r requirements.txt
 cp .env.example .env
 
 # Edit the .env file with your actual API keys and settings
+
+#DietPi dir
+ssh root@192.168.137.59
+
+\\192.168.137.59\dragonhacks
