@@ -50,6 +50,7 @@ async def process_video_stream():
             cv2.putText(frame, f"Agent: {result.output[:50]}...", (10, 30), 
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
             cv2.imshow('Camera Feed with Agent Analysis', frame)
+            cv2.waitKey(1)
             
             # Break the loop if 'q' is pressed
             if cv2.waitKey(1) & 0xFF == ord('q'):
